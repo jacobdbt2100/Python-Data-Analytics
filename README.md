@@ -17,6 +17,7 @@
 | Matplotlib | Customisable visualisations | Base layer for plotting in Python |
 | Seaborn | Statistical visualisations | Built on Matplotlib; cleaner defaults |
 | Plotly | Interactive visuals | Dashboard-friendly |
+
 - Jupyter Notebook (`.ipynb`)
 
 > Workflow: Pandas → Seaborn for quick insights → Matplotlib for fine-tuning → Plotly for dashboards
