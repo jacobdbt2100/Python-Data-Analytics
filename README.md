@@ -20,19 +20,18 @@
 
 - Jupyter Notebook (`.ipynb`)
 
-> Workflow: Pandas → Seaborn for quick insights → Matplotlib for fine-tuning → Plotly for dashboards
+> Workflow: Pandas > Seaborn for quick insights > Matplotlib for fine-tuning > Plotly for dashboards
 
 ---
 
-## ✅ Week 1 — Python Basics + Data Structures
+## Week 1 — Python Basics + Data Structures
 
-**Topics**
 - Variables, operators, expressions
 - Conditional statements & loops
 - Functions, modules
 - Lists, Tuples, Sets, Dictionaries
 
-**Example**
+**Example**:
 ```python
 def net_price(price, tax=0.05):
     return price + (price * tax)
@@ -40,16 +39,15 @@ def net_price(price, tax=0.05):
 print(net_price(100))  # 105
 ```
 
-## ✅ Week 2 — Pandas for Data Wrangling
+## Week 2 — Pandas for Data Wrangling
 
-**Topics**
 - Importing CSV/Excel files
 - Handling missing values
 - Filtering and sorting
 - Grouping and summarisation
 - Merging and joining datasets
 
-**Example**
+**Example**:
 ```python
 import pandas as pd
 
@@ -59,15 +57,14 @@ summary = df.groupby("region")["amount"].sum()
 print(summary)
 ```
 
-## ✅ Week 3 — Exploratory Data Analysis (EDA)
+## Week 3 — Exploratory Data Analysis (EDA)
 
-**Topics**
 - Descriptive statistics
 - Feature relationships
 - Outlier spotting
 - Trend discovery
 
-**Example**
+**Example**:
 ```python
 import seaborn as sns
 import matplotlib.pyplot as plt
@@ -77,14 +74,13 @@ plt.title("Sales Distribution by Region")
 plt.show()
 ```
 
-## ✅ Week 4 — Data Visualisation (Matplotlib + Seaborn + Plotly)
+## Week 4 — Data Visualisation (Matplotlib + Seaborn + Plotly)
 
-**Topics**
 - Bar, line, scatter, histograms
 - Correlations (heatmaps)
 - Interactive charts with Plotly
 
-**Examples**
+**Examples**:
 ```python
 # Seaborn
 sns.lineplot(data=df, x="date", y="amount")
