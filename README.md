@@ -14,8 +14,8 @@
 |--------|---------|------|
 | Pandas | Data analysis and wrangling | Equivalent to Excel/SQL tables |
 | NumPy | Efficient numerical operations | Supports Pandas under the hood |
-| Matplotlib | Customisable visualisations | Base layer for plotting in Python |
-| Seaborn | Statistical visualisations | Built on Matplotlib; cleaner defaults |
+| Matplotlib | Customizable visualizations | Base layer for plotting in Python |
+| Seaborn | Statistical visualizations | Built on Matplotlib; cleaner defaults |
 | Plotly | Interactive visuals | Dashboard-friendly |
 
 - Jupyter Notebook (`.ipynb`)
@@ -44,7 +44,7 @@ print(net_price(100))  # 105
 - Importing CSV/Excel files
 - Handling missing values
 - Filtering and sorting
-- Grouping and summarisation
+- Grouping and summarization
 - Merging and joining datasets
 
 **Example**:
