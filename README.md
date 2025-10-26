@@ -6,21 +6,6 @@
 - Skilled in Pandas-based wrangling
 - Able to generate insights with EDA
 - Produce interactive dashboards with Plotly
-- Portfolio-ready Python projects
-
-## Key Tools
-
-| Library | Purpose | Notes |
-|--------|---------|------|
-| Pandas | Data analysis and wrangling | Equivalent to Excel/SQL tables |
-| NumPy | Efficient numerical operations | Supports Pandas under the hood |
-| Matplotlib | Customizable visualizations | Base layer for plotting in Python |
-| Seaborn | Statistical visualizations | Built on Matplotlib; cleaner defaults |
-| Plotly | Interactive visuals | Dashboard-friendly |
-
-- Jupyter Notebook (`.ipynb`)
-
-> Workflow: Pandas > Seaborn for quick insights > Matplotlib for fine-tuning > Plotly for dashboards
 
 ---
 
@@ -97,3 +82,17 @@ import plotly.express as px
 fig = px.scatter(df, x="amount", y="profit", color="region")
 fig.show()
 ```
+
+## Key Tools
+
+| Library | Purpose | Notes |
+|--------|---------|------|
+| Pandas | Data analysis and wrangling | Equivalent to Excel/SQL tables |
+| NumPy | Efficient numerical operations | Supports Pandas under the hood |
+| Matplotlib | Customizable visualizations | Base layer for plotting in Python |
+| Seaborn | Statistical visualizations | Built on Matplotlib; cleaner defaults |
+| Plotly | Interactive visuals | Dashboard-friendly |
+
+- Jupyter Notebook (`.ipynb`)
+
+> Workflow: Pandas > Seaborn for quick insights > Matplotlib for fine-tuning > Plotly for dashboards
