@@ -1,14 +1,5 @@
 # Python for Data Analytics — 4-Week Roadmap
 
-### Learning Objectives
-
-- Confident with Python for analytics
-- Skilled in Pandas-based wrangling
-- Able to generate insights with EDA
-- Produce interactive dashboards with Plotly
-
----
-
 ## Week 1 — Python Basics + Data Structures
 
 - Variables, operators, expressions
