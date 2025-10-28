@@ -50,11 +50,12 @@ plt.title("Sales Distribution by Region")
 plt.show()
 ```
 
-## Week 4 — Data Visualisation (Matplotlib + Seaborn + Plotly)
+## Week 4 — Data Visualisation (Matplotlib + Seaborn + Plotly) & Final Project
 
 - Bar, line, scatter, histograms
 - Correlations (heatmaps)
 - Interactive charts with Plotly
+- Mini analytical **case studies** project
 
 **Examples**:
 ```python
