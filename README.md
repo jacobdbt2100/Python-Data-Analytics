@@ -1,6 +1,6 @@
 # Python for Data Analytics — 4-Week Roadmap
 
-## Week 1 — Python Basics + Data Structures
+## Week 1 — Python Basics & Data Structures
 
 - Variables, operators, expressions
 - Conditional statements & loops
