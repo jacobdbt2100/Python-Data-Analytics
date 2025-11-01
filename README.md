@@ -15,7 +15,7 @@ def net_price(price, tax=0.05):
 print(net_price(100))  # 105
 ```
 
-## Week 2 — Pandas for Data Wrangling
+## Week 2 — Pandas for Data Cleaning & Transformation
 
 - Importing CSV/Excel files
 - Handling missing values
