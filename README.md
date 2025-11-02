@@ -1,19 +1,54 @@
 # Python for Data Analytics — 4-Week Roadmap
 
-## Week 1 — Python Basics & Data Structures
+## Week 1 — Python Fundamentals & Data Structures
 
-- Variables, operators, expressions
-- Conditional statements & loops
-- Functions, modules
-- Lists, Tuples, Sets, Dictionaries
+Goal: Build a solid foundation in Python syntax, data types, and logic.
+- Variables, input/output, and indentation
+- Data types: int, float, str, bool
+- Lists, tuples, sets, dictionaries
+- Control statements (if, for, while)
+- Functions and lambda expressions
 
-**Example**:
+**Sample Codes:**
 ```python
-def net_price(price, tax=0.05):
-    return price + (price * tax)
+# Basic data types
+x = 10
+y = 3.5
+name = "Jacob"
+is_active = True
+print(type(x), type(name))  # <class 'int'> <class 'str'>
 
-print(net_price(100))  # 105
+# Conditional statement
+if x > 5:
+    print("x is greater than 5")
+
+# Loop example
+for i in range(3):
+    print("Loop count:", i)
+
+# Function example
+def greet(name):
+    return f"Hello, {name}!"
+
+print(greet("Jacob"))
+
+# Lambda function
+square = lambda n: n**2
+print(square(4))  # 16
 ```
+
+**Mini Project:**
+
+Create a small program to summarise student scores from a CSV file using lists and dictionaries.
+
+
+
+
+
+
+
+
+
 
 ## Week 2 — Pandas for Data Cleaning & Transformation
 
