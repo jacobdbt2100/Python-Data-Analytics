@@ -75,7 +75,9 @@ fig = px.scatter(df, x="amount", y="profit", color="region")
 fig.show()
 ```
 
-## Key Tools
+### MISCELLANEOUS
+
+#### `Key Tools:`
 
 | Library | Purpose | Notes |
 |--------|---------|------|
