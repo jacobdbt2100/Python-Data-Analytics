@@ -41,32 +41,42 @@ print(square(4))  # 16
 
 Create a small program to summarise student scores from a CSV file using lists and dictionaries.
 
+## Week 2 — Working with Libraries (NumPy & Pandas)
 
+Goal: Learn how to manipulate and analyse structured data.
 
+- Introduction to NumPy arrays
+- Creating, slicing, and reshaping arrays
+- Pandas DataFrames — creation, selection, filtering
+- Handling missing values (.fillna(), .dropna())
+- Aggregation and grouping
+- Basic statistics and correlation
 
-
-
-
-
-
-
-## Week 2 — Pandas for Data Cleaning & Transformation
-
-- Importing CSV/Excel files
-- Handling missing values
-- Filtering and sorting
-- Grouping and summarization
-- Merging and joining datasets
-
-**Example**:
+**Sample Codes:**
 ```python
+import numpy as np
 import pandas as pd
 
-df = pd.read_csv("sales.csv")
-df = df.dropna()
-summary = df.groupby("region")["amount"].sum()
-print(summary)
+# NumPy example
+arr = np.array([10, 20, 30, 40])
+print(arr.mean())  # 25.0
+
+# Pandas DataFrame
+data = {'Name': ['Ayo', 'Tunde', 'Jane'], 'Score': [80, 75, 90]}
+df = pd.DataFrame(data)
+print(df.head())
+
+# Filtering
+print(df[df['Score'] > 80])
+
+# Grouping example
+df['Category'] = ['A', 'B', 'A']
+print(df.groupby('Category')['Score'].mean())
 ```
+
+**Mini Project:**
+
+Perform exploratory data analysis (EDA) on a Sales dataset — summarise totals, averages, and missing values.
 
 ## Week 3 — Exploratory Data Analysis (EDA)
 
