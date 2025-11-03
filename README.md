@@ -1,13 +1,12 @@
 # Python for Data Analytics — 4-Week Roadmap
 
-## Week 1 — Python Fundamentals & Data Structures
+## Week 1 — Python Fundamentals & Data Structures (Building a strong foundation in syntax, data types, and logic)
 
-Goal: Build a solid foundation in Python syntax, data types, and logic.
 - Variables, input/output, and indentation
-- Data types: int, float, str, bool
+- Data types: `int`, `float`, `str`, `bool`
 - Lists, tuples, sets, dictionaries
-- Control statements (if, for, while)
-- Functions and lambda expressions
+- Control statements (`if`, `for`, `while`)
+- Functions and `lambda` expressions
 
 **Sample Codes:**
 ```python
@@ -41,15 +40,13 @@ print(square(4))  # 16
 
 Create a small program to summarise student scores from a CSV file using lists and dictionaries.
 
-## Week 2 — Working with Libraries (NumPy & Pandas)
-# ADD DATA IMPORT CSV,EXCEL, ETC
+## Week 2 — Working with Data, NumPy, and Pandas (Importing, cleaning, and analysing structured data)
 
-Goal: Learn how to manipulate and analyse structured data.
-
+- Importing data from CSV, Excel, and other sources
 - Introduction to NumPy arrays
 - Creating, slicing, and reshaping arrays
 - Pandas DataFrames — creation, selection, filtering
-- Handling missing values (.fillna(), .dropna())
+- Handling missing values (`.fillna()`, `.dropna()`)
 - Aggregation and grouping
 - Basic statistics and correlation
 
@@ -58,11 +55,19 @@ Goal: Learn how to manipulate and analyse structured data.
 import numpy as np
 import pandas as pd
 
+# Importing data
+df_csv = pd.read_csv('sales_data.csv')
+df_excel = pd.read_excel('sales_data.xlsx')
+
+# Inspecting data
+print(df_csv.head())
+print(df_csv.info())
+
 # NumPy example
 arr = np.array([10, 20, 30, 40])
 print(arr.mean())  # 25.0
 
-# Pandas DataFrame
+# Pandas DataFrame from dictionary
 data = {'Name': ['Ayo', 'Tunde', 'Jane'], 'Score': [80, 75, 90]}
 df = pd.DataFrame(data)
 print(df.head())
@@ -77,11 +82,9 @@ print(df.groupby('Category')['Score'].mean())
 
 **Mini Project:**
 
-Perform exploratory data analysis (EDA) on a Sales dataset — summarize totals, averages, and missing values.
+Perform exploratory data analysis (EDA) on a Sales dataset — import, clean, and summarise totals, averages, and missing values.
 
-## Week 3 — Data Visualisation (Matplotlib & Seaborn)
-
-Goal: Learn how to communicate insights visually.
+## Week 3 — Data Visualisation with Matplotlib & Seaborn (Creating visual insights for presentation and storytelling)
 
 - Introduction to Matplotlib
 - Seaborn plots: countplot, scatterplot, heatmap
@@ -111,21 +114,16 @@ plt.show()
 ```
 
 **Mini Project:**
-# why Dashboards in python. Suitable?
 
-Create visual dashboards showing sales trends, top categories, and correlation heatmaps.
+Create visuals showing sales trends, top categories, and correlation heatmaps to highlight patterns and insights from a dataset.
 
-
-
-## Week 4 — Intro to Machine Learning (Scikit-learn)
-
-Goal: Build a simple predictive model from clean data.
+## Week 4 — Introduction to Machine Learning with Scikit-learn (Building a simple predictive model)
 
 - Introduction to Scikit-learn
 - Train-test split
 - Linear Regression model
 - Model evaluation (R², MAE, RMSE)
-- Saving and loading models with joblib ......WHAT's THIS???
+- Saving and loading models with `joblib`
 
 **Sample Codes:**
 ```python
