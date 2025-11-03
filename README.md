@@ -172,6 +172,8 @@ Build a simple model to predict sales or customer churn using Scikit-learn.
 | Seaborn | Statistical visualizations | Built on Matplotlib; cleaner defaults |
 | Plotly | Interactive visuals | Dashboard-friendly |
 
-- Jupyter Notebook (`.ipynb`)
+#### `Modules:`
+In Python, modules are files that contain Python code — such as functions, classes, and variables — that can be reused in other programs.
+
 
 > Workflow: Pandas > Seaborn for quick insights > Matplotlib for fine-tuning > Plotly for dashboards
