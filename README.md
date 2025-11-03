@@ -177,7 +177,7 @@ Build a simple model to predict sales or customer churn using Scikit-learn.
 #### `Modules:`
 In Python, modules are files that contain Python code — such as functions, classes, and variables — that can be reused in other programs.
 
-#### `Matplotlib and Seaborn:`
+#### `Matplotlib vs Seaborn:`
 
 | Aspect            | **Matplotlib**                                                   | **Seaborn**                                                                                            |
 | ----------------- | ---------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
