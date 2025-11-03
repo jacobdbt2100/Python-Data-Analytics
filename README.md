@@ -180,10 +180,18 @@ In Python, modules are files that contain Python code — such as functions, cla
 #### `Matplotlib vs Seaborn:`
 
 | Aspect            | **Matplotlib**                                                   | **Seaborn**                                                                                            |
-| ----------------- | ---------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
+| ----------------- | ---------------------------------------------------------------- | --------------------------------------------------------------------------------- |
 | **Purpose**       | A low-level plotting library for detailed control over plots.    | A high-level library built on top of Matplotlib for easier, more attractive statistical visualization. |
 | **Ease of Use**   | Requires more code and manual styling.                           | Simpler syntax and automatic styling for better visuals.                                               |
 | **Customization** | Extremely flexible—fine control over every plot element.         | Limited flexibility but integrates easily with Matplotlib for custom tweaks.                           |
 | **Default Style** | Basic and less aesthetic by default.                             | Comes with appealing themes and colour palettes.                                                       |
 | **Best For**      | Creating highly customized plots and complex figure layouts.     | Quick, beautiful plots for statistical data exploration.                                               |
 | **Integration**   | Foundation for Seaborn and other libraries like pandas plotting. | Works seamlessly with pandas DataFrames and Matplotlib.                                                |
+
+#### `Pandas Summary Codes:`
+
+
+
+
+
+
