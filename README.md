@@ -191,11 +191,13 @@ In Python, modules are files that contain Python code — such as functions, cla
 #### `Pandas Summary Codes:`
 
 1. `Import / Export Data`
-   ```python
-   pd.read_csv(filename): Read data from a
-CSV file.
-pd.read_table(filename): Read data from
-a delimited text file.
+```python
+# Read data from a CSV file
+pd.read_csv(filename)
+
+# Read data from a delimited text file.
+pd.read_table(filename)
+
 pd.read_excel(filename): Read data from
 an Excel file.
 pd.read_sql(query, connection_object):
