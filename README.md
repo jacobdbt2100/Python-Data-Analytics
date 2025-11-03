@@ -191,6 +191,7 @@ In Python, modules are files that contain Python code — such as functions, cla
 #### `Pandas Summary Codes:`
 
 1. `Import / Export Data`
+
 ```python
 # Read from a CSV file
 pd.read_csv(filename)
@@ -227,7 +228,35 @@ df.to_json(filename)
 ```
 
 2. `Inspect Data`
+
 ```python
 
+# View the first 5 rows of the DataFrame
+df.head()
+
+# View the last 5 rows of the DataFrame
+df.tail()
+
+# View random 5 rows of the DataFrame
+df.sample()
+
+# Get the dimensions of the DataFrame
+df.shape
+
+# Get a concise summary of the DataFrame
+df.info()
+
+# Summary statistics for numerical columns
+df.describe()
+
+# Check data types of columns
+df.dtypes
+
+#  List column names
+df.columns
+
+# Display the index range
+df.index
+```
 
 
