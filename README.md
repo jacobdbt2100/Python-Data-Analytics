@@ -40,7 +40,7 @@ print(square(4))  # 16
 
 Create a small program to summarise student scores from a CSV file using lists and dictionaries.
 
-## Week 2 — Working with Data, NumPy, and Pandas (Importing, cleaning, and analysing structured data)
+## Week 2 — Working with Data, NumPy, and Pandas (Importing, cleaning, and analyzing structured data)
 
 - Importing data from CSV, Excel, and other sources
 - Introduction to NumPy arrays
