@@ -84,7 +84,7 @@ print(df.groupby('Category')['Score'].mean())
 
 Perform exploratory data analysis (EDA) on a Sales dataset — import, clean, and summarise totals, averages, and missing values.
 
-## Week 3 — Data Visualisation with Matplotlib & Seaborn (Creating visual insights for presentation and storytelling)
+## Week 3 — Data Visualization with Matplotlib & Seaborn (Creating visual insights for presentation and storytelling)
 
 - Introduction to Matplotlib
 - Seaborn plots: countplot, scatterplot, heatmap
