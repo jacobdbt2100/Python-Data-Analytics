@@ -354,47 +354,35 @@ df.filter(like='part')
 6. **`Group Data`**
 
 ```python
-
-df.groupby('col'): Group by a
-column
-
-
-df.groupby('col').mean(): Mean
-of groups
-
-
-df.groupby('col').sum(): Sum of
-groups
-
-
-df.groupby('col').count(): Count
-non-null values in groups
-
-
+# Group by a column
 df.groupby('col')
-['other_col'].max(): Max value
-in another column for groups
 
+# Mean of groups
+df.groupby('col').mean()
 
-df.pivot_table(values='col',
-index='group', aggfunc='mean'):
-Create a pivot table
+# Sum of groups
+df.groupby('col').sum()
 
+# Count non-null values in groups
+df.groupby('col').count()
 
-df.agg({'col1': 'mean', 'col2':
-'sum'}): Aggregate multiple
-columns
+# Max value in another column for groups
+df.groupby('col')['other_col'].max()
 
+# Create a pivot table
+df.pivot_table(values='col', index='group', aggfunc='mean')
 
-df.apply(np.mean): Apply a
-function to columns
+# Aggregate multiple columns
+df.agg({'col1': 'mean', 'col2': 'sum'})
 
+# Apply a function to columns
+df.apply(np.mean)
 
-df.transform(lambda x: x + 10):
-Transform data column-wise
+# Transform data column-wise
+df.transform(lambda x: x + 10)
 ```
 
-8. **`Merge / Join Data`**
+7. **`Merge / Join Data`**
 
 ```python
 
@@ -433,7 +421,7 @@ pd.merge(df1, df2, how='right',
 on='key'): Right join
 ```
 
-9. **`Statistical Operations`**
+8. **`Statistical Operations`**
 
 ```python
 
@@ -468,7 +456,7 @@ values per column
 df.corr(): Correlation matrix.
 ```
 
-10. **`Data Visualization`**
+9. **`Data Visualization`**
 
 ```python
 
