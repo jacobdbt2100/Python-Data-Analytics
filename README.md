@@ -354,90 +354,156 @@ df.filter(like='part')
 6. **`Group Data`**
 
 ```python
+
 df.groupby('col'): Group by a
-column.
+column
+
+
 df.groupby('col').mean(): Mean
-of groups.
+of groups
+
+
 df.groupby('col').sum(): Sum of
-groups.
+groups
+
+
 df.groupby('col').count(): Count
-non-null values in groups.
+non-null values in groups
+
+
 df.groupby('col')
 ['other_col'].max(): Max value
-in another column for groups.
+in another column for groups
+
+
 df.pivot_table(values='col',
 index='group', aggfunc='mean'):
-Create a pivot table.
+Create a pivot table
+
+
 df.agg({'col1': 'mean', 'col2':
 'sum'}): Aggregate multiple
-columns.
+columns
+
+
 df.apply(np.mean): Apply a
-function to columns.
+function to columns
+
+
 df.transform(lambda x: x + 10):
-Transform data column-wise.
+Transform data column-wise
 ```
 
 8. **`Merge / Join Data`**
 
 ```python
+
 pd.concat([df1, df2]):
 Concatenate DataFrames
-vertically.
+vertically
+
+
 pd.concat([df1, df2], axis=1):
 Concatenate DataFrames
-horizontally.
+horizontally
+
+
 df1.merge(df2, on='key'): Merge
-two DataFrames on a key.
+two DataFrames on a key
+
+
 df1.join(df2): SQL-style join.
 df1.append(df2): Append rows of
-one DataFrame to another.
+one DataFrame to another
+
+
 pd.merge(df1, df2, how='outer',
-on='key'): Outer join.
+on='key'): Outer join
+
+
 pd.merge(df1, df2, how='inner',
-on='key'): Inner join.
+on='key'): Inner join
+
+
 pd.merge(df1, df2, how='left',
-on='key'): Left join.
+on='key'): Left join
+
+
 pd.merge(df1, df2, how='right',
-on='key'): Right join.
+on='key'): Right join
 ```
 
 9. **`Statistical Operations`**
 
 ```python
-df.mean(): Column-wise mean.
+
+df.mean(): Column-wise mean
+
+
 df.median(): Column-wise
-median.
+median
+
+
 df.std(): Column-wise standard
-deviation.
+deviation
+
+
 df.var(): Column-wise
-variance.
-df.sum(): Column-wise sum.
-df.min(): Column-wise minimum.
-df.max(): Column-wise maximum.
+variance
+
+
+df.sum(): Column-wise sum
+
+
+df.min(): Column-wise minimum
+
+
+df.max(): Column-wise maximum
+
+
 df.count(): Count of non-null
-values per column.
+values per column
+
+
 df.corr(): Correlation matrix.
 ```
 
 10. **`Data Visualization`**
 
 ```python
+
 df.plot(kind='line'): Line
-plot.
+plot
+
+
 df.plot(kind='bar'): Vertical
-bar plot.
+bar plot
+
+
 df.plot(kind='barh'):
-Horizontal bar plot.
+Horizontal bar plot
+
+
 df.plot(kind='hist'):
-Histogram.
+Histogram
+
+
 df.plot(kind='box'): Box
-plot.
+plot
+
+
 df.plot(kind='kde'): Kernel
-density estimation plot.
+density estimation plot
+
+
 df.plot(kind='pie', y='col'):
-Pie chart.
+Pie chart
+
+
 df.plot.scatter(x='c1',
-y='c2'): Scatter plot.
+y='c2'): Scatter plot
+
+
 df.plot(kind='area'): Area
-plot.
+plot
 ```
