@@ -385,40 +385,33 @@ df.transform(lambda x: x + 10)
 7. **`Merge / Join Data`**
 
 ```python
-# 
-pd.concat([df1, df2]):
-Concatenate DataFrames
-vertically
+# Concatenate DataFrames vertically
+pd.concat([df1, df2])
 
-# 
-pd.concat([df1, df2], axis=1):
-Concatenate DataFrames
-horizontally
 
-# 
-df1.merge(df2, on='key'): Merge
-two DataFrames on a key
+# Concatenate DataFrames horizontally
+pd.concat([df1, df2], axis=1)
 
-# 
-df1.join(df2): SQL-style join.
-df1.append(df2): Append rows of
-one DataFrame to another
+# Merge two DataFrames on a key
+df1.merge(df2, on='key')
 
-# 
-pd.merge(df1, df2, how='outer',
-on='key'): Outer join
+# SQL-style join
+df1.join(df2)
 
-# 
-pd.merge(df1, df2, how='inner',
-on='key'): Inner join
+# Append rows of one DataFrame to another
+df1.append(df2)
 
-# 
-pd.merge(df1, df2, how='left',
-on='key'): Left join
+# Outer join
+pd.merge(df1, df2, how='outer', on='key')
 
-# 
-pd.merge(df1, df2, how='right',
-on='key'): Right join
+# Inner join
+pd.merge(df1, df2, how='inner', on='key')
+
+# Left join
+pd.merge(df1, df2, how='left', on='key')
+
+# Right join
+pd.merge(df1, df2, how='right', on='key')
 ```
 
 8. **`Statistical Operations`**
