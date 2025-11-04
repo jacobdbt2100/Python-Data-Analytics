@@ -258,7 +258,7 @@ df.columns
 df.index
 ```
 
-3. Select Index Data
+3. `Select Index Data`
 
 ```python
 # Select a single column
