@@ -475,3 +475,16 @@ df.plot.scatter(x='c1', y='c2')
 # Area plot
 df.plot(kind='area')
 ```
+
+#### `loc vs iloc:`
+
+| Feature               | **loc**                                     | **iloc**                                       |
+| --------------------- | ------------------------------------------- | ---------------------------------------------- |
+| **Purpose**           | Label-based selection                       | Integer position-based selection               |
+| **Access by**         | Row/column **labels**                       | Row/column **index positions**                 |
+| **Syntax**            | `df.loc[row_label, column_label]`           | `df.iloc[row_index, column_index]`             |
+| **Example (row)**     | `df.loc[2]` → row with index label `2`      | `df.iloc[2]` → 3rd row (index position 2)      |
+| **Example (range)**   | `df.loc[1:3]` → includes both 1 and 3       | `df.iloc[1:3]` → includes 1 but **excludes 3** |
+| **Boolean filtering** | Accepts boolean masks with **labels**       | Accepts boolean masks with **positions**       |
+| **Use case**          | When you know the **index names** or labels | When you know the **row/column order**         |
+
