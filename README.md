@@ -227,7 +227,7 @@ df.to_sql(table_nm, connection_object)
 df.to_json(filename)
 ```
 
-2. `Inspect Data`
+2. **`Inspect Data`**
 
 ```python
 # View the first 5 rows of the DataFrame
@@ -258,7 +258,7 @@ df.columns
 df.index
 ```
 
-3. `Select Index Data`
+3. **`Select Index Data`**
 
 ```python
 # Select a single column
