@@ -230,7 +230,6 @@ df.to_json(filename)
 2. `Inspect Data`
 
 ```python
-
 # View the first 5 rows of the DataFrame
 df.head()
 
@@ -258,5 +257,40 @@ df.columns
 # Display the index range
 df.index
 ```
+
+3. Select Index Data
+
+```python
+# Select a single column
+df['column']
+
+# Select multiple columns
+df[['col1', 'col2']]
+
+# Select the first row by position
+df.iloc[0]
+
+# Select the first row by index label
+df.loc[0]
+
+# Select a specific element by position
+df.iloc[0, 0]
+
+# Select a specific element by label
+df.loc[0, 'column']
+
+# Filter rows where column > 5
+df[df['col'] > 5]
+
+# Slice rows and columns
+df.iloc[0:5, 0:2]
+
+# Set a column as the index
+df.set_index('column')
+```
+
+
+
+
 
 
