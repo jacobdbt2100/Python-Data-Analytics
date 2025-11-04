@@ -289,6 +289,37 @@ df.iloc[0:5, 0:2]
 df.set_index('column')
 ```
 
+4. **`Cleaning Data`**
+
+```python
+# Check for null values
+df.isnull()
+
+# Check for non-null values
+df.notnull()
+
+# Drop rows with null values
+df.dropna()
+
+# Replace null values with a specific value
+df.fillna(value)
+
+# Replace specific values
+df.replace(1, 'one')
+
+# Rename columns
+df.rename(columns={'old': 'new'})
+
+# Change data type of a column
+df.astype('int')
+
+# Remove duplicate rows
+df.drop_duplicates()
+
+# Reset the index
+df.reset_index()
+```
+
 
 
 
