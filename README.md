@@ -323,26 +323,32 @@ df.reset_index()
 5. **`Sort & Filter Data`**
 
 ```python
-df.sort_values('col'): Sort by
-column in ascending order.
-df.sort_values('col',
-ascending=False): Sort by column
-in descending order.
-df.sort_values(['col1', 'col2'],
-ascending=[True, False]): Sort
-by multiple columns.
-df[df['col'] > 5]: Filter rows
-based on condition.
-df.query('col > 5'): Filter
-using a query string.
-df.sample(5): Randomly select 5
-rows.
-df.nlargest(3, 'col'): Get top 3
-rows by column.
-df.nsmallest(3, 'col'): Get
-bottom 3 rows by column.
-df.filter(like='part'): Filter
-columns by substring.
+# Sort by column in ascending order
+df.sort_values('col')
+
+# Sort by column in descending order
+df.sort_values('col', ascending=False)
+
+# Sort by multiple columns
+df.sort_values(['col1', 'col2'], ascending=[True, False])
+
+# Filter rows based on condition
+df[df['col'] > 5]
+
+# Filter using a query string
+df.query('col > 5')
+
+# Randomly select 5 rows
+df.sample(5)
+
+# Get top 3 rows by column
+df.nlargest(3, 'col')
+
+# Get bottom 3 rows by column
+df.nsmallest(3, 'col')
+
+# Filter columns by substring
+df.filter(like='part')
 ```
 
 6. **`Group Data`**
