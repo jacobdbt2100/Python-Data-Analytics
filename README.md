@@ -385,38 +385,38 @@ df.transform(lambda x: x + 10)
 7. **`Merge / Join Data`**
 
 ```python
-
+# 
 pd.concat([df1, df2]):
 Concatenate DataFrames
 vertically
 
-
+# 
 pd.concat([df1, df2], axis=1):
 Concatenate DataFrames
 horizontally
 
-
+# 
 df1.merge(df2, on='key'): Merge
 two DataFrames on a key
 
-
+# 
 df1.join(df2): SQL-style join.
 df1.append(df2): Append rows of
 one DataFrame to another
 
-
+# 
 pd.merge(df1, df2, how='outer',
 on='key'): Outer join
 
-
+# 
 pd.merge(df1, df2, how='inner',
 on='key'): Inner join
 
-
+# 
 pd.merge(df1, df2, how='left',
 on='key'): Left join
 
-
+# 
 pd.merge(df1, df2, how='right',
 on='key'): Right join
 ```
@@ -424,74 +424,74 @@ on='key'): Right join
 8. **`Statistical Operations`**
 
 ```python
-
+# 
 df.mean(): Column-wise mean
 
-
+# 
 df.median(): Column-wise
 median
 
-
+# 
 df.std(): Column-wise standard
 deviation
 
-
+# 
 df.var(): Column-wise
 variance
 
-
+# 
 df.sum(): Column-wise sum
 
-
+# 
 df.min(): Column-wise minimum
 
-
+# 
 df.max(): Column-wise maximum
 
-
+# 
 df.count(): Count of non-null
 values per column
 
-
+# 
 df.corr(): Correlation matrix.
 ```
 
 9. **`Data Visualization`**
 
 ```python
-
+# 
 df.plot(kind='line'): Line
 plot
 
-
+# 
 df.plot(kind='bar'): Vertical
 bar plot
 
-
+# 
 df.plot(kind='barh'):
 Horizontal bar plot
 
-
+# 
 df.plot(kind='hist'):
 Histogram
 
-
+# 
 df.plot(kind='box'): Box
 plot
 
-
+# 
 df.plot(kind='kde'): Kernel
 density estimation plot
 
-
+# 
 df.plot(kind='pie', y='col'):
 Pie chart
 
-
+# 
 df.plot.scatter(x='c1',
 y='c2'): Scatter plot
 
-
+# 
 df.plot(kind='area'): Area
 plot
 ```
