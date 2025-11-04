@@ -417,74 +417,61 @@ pd.merge(df1, df2, how='right', on='key')
 8. **`Statistical Operations`**
 
 ```python
-# 
-df.mean(): Column-wise mean
+# Column-wise mean
+df.mean()
 
-# 
-df.median(): Column-wise
-median
+# Column-wise median
+df.median()
 
-# 
-df.std(): Column-wise standard
-deviation
+# Column-wise standard deviation
+df.std()
 
-# 
-df.var(): Column-wise
-variance
+# Column-wise variance
+df.var()
 
-# 
-df.sum(): Column-wise sum
+# Column-wise sum
+df.sum()
 
-# 
-df.min(): Column-wise minimum
+# Column-wise minimum
+df.min()
 
-# 
-df.max(): Column-wise maximum
+# Column-wise maximum
+df.max()
 
-# 
-df.count(): Count of non-null
-values per column
+# Count of non-null values per column
+df.count()
 
-# 
-df.corr(): Correlation matrix.
+# Correlation matrix
+df.corr()
 ```
 
 9. **`Data Visualization`**
 
 ```python
-# 
-df.plot(kind='line'): Line
-plot
+# Line plot
+df.plot(kind='line')
 
-# 
-df.plot(kind='bar'): Vertical
-bar plot
+# Vertical bar plot
+df.plot(kind='bar')
 
-# 
-df.plot(kind='barh'):
-Horizontal bar plot
+# Horizontal bar plot
+df.plot(kind='barh')
 
-# 
-df.plot(kind='hist'):
-Histogram
+# Histogram
+df.plot(kind='hist')
 
-# 
-df.plot(kind='box'): Box
-plot
+# Box plot
+df.plot(kind='box')
 
-# 
-df.plot(kind='kde'): Kernel
-density estimation plot
+# Kernel density estimation plot
+df.plot(kind='kde')
 
-# 
-df.plot(kind='pie', y='col'):
-Pie chart
+# Pie chart
+df.plot(kind='pie', y='col')
 
-# 
-df.plot.scatter(x='c1',
-y='c2'): Scatter plot
+# Scatter plot
+df.plot.scatter(x='c1', y='c2')
 
-# 
-df.plot(kind='area'): Area
-plot
+# Area plot
+df.plot(kind='area')
 ```
